@@ -10,6 +10,7 @@ public class ClienteMassa {
 	
 	public ClienteEntity popularEntity( ){
 		ClienteEntity entity = new ClienteEntity();
+		entity.setId(1);
 		entity.setNome("Cliente1");
 		entity.setCelular("(11) 993-650-220");
 		entity.setTelefone("(11) 4148-4583");

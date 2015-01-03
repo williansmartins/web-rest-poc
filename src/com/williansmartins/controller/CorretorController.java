@@ -25,6 +25,7 @@ public class CorretorController {
 		ClienteEntity corretor1 = new ClienteMassa().popularEntity();
 		ClienteEntity corretor2 = new ClienteMassa().popularEntity();
 		lista.add(corretor1);
+		corretor2.setId(2);
 		lista.add(corretor2);
 		
 		JSONReturn jsonReturn = new JSONReturn();
